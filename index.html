@@ -92,7 +92,7 @@
                         <div class="carousel-item bg-dark rounded-2 active" data-bs-interval="2000">
                             <img src="images/cover/Cover_Slider2.png" class="d-block w-100  opacity-25 " alt="...">
 
-                            <div class="carousel-caption  d-md-block gap-2 ">
+                            <div class="carousel-caption  d-md-block gap-2 " id="slider_box">
                                 <h1 class=" fw-semibold">155+ Courses are available</h1>
                                 <p class="text-truncate">Learning is a treasure that will follow its owner everywhere
                                 </p>
@@ -104,7 +104,7 @@
                                         Now</a>
 
                                     <input class="bg-primary text-white px-3 py-2 border border-0 rounded-2"
-                                        type="button" value="Get Started">
+                                        id="slider-btn" type="button" value="Get Started">
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                         <div class="carousel-item bg-dark rounded-2" data-bs-interval="3000">
                             <img src="images/cover/Cover_Slider3.png" class="d-block w-100  opacity-25 " alt="...">
 
-                            <div class="carousel-caption  d-md-block ">
+                            <div class="carousel-caption  d-md-block " id="slider_box">
                                 <h1 class="  fw-semibold">100+ Dedicated Instructor</h1>
                                 <p class="text-truncate mb-3">Education is not preparation for life; education is life
                                     itself</p>
@@ -121,7 +121,7 @@
                                 <div class="register pt-md-3">
 
                                     <input class="bg-primary text-white px-3 py-2 border border-0 rounded-2"
-                                        type="button" value="Get Started">
+                                        id="slider-btn" type="button" value="Get Started">
 
 
                                 </div>
@@ -367,12 +367,59 @@
             </div>
 
             <div class="col-3 d-flex align-items-center">
-                <input class="text-black border-0 bg-white rounded-2 px-3 py-1 my-3" id="Register_id" type="button"
-                    value="Register Now">
+                <!-- <input class="text-black border-0 bg-white rounded-2 px-3 py-1 my-3" id="Register_id" type="button"
+                    value="Register Now"> -->
+                <div class="container ">
+                    <button type="button" class="btn btn-success bg-white text-primary" data-bs-toggle="modal"
+                        data-bs-target="#myModal">Register
+                        Now</button>
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Register
+                                        Now</h5>
+                                    <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal">.</button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+
+                                        <div class="mb-3">
+                                            <label class="form-label required">Name</label>
+                                            <input type="text" placeholder="Name" class="form-control">
+
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label required">Email</label>
+                                            <input type="email" placeholder="e-mail" class="form-control">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label required">Passwaord</label>
+                                            <input type="email" placeholder="Password" class="form-control">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label required">Type ypur message here</label>
+                                            <textarea class="form-control" placeholder="Comment"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                    <button type="submit" class="btn btn-danger">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- End ready to join section -->
+
+
+
+    <!-- modal end -->
 
     <!--Start Successful Student Section -->
     <section class="container my-5">
@@ -609,7 +656,7 @@
     <!-- Accordian Section End -->
     <!-- Trusted section start -->
     <div class="container text-center">
-        <div>
+        <div id="trusted_clas_box">
             <h1 class="my-5">Trusted by over 800+ companies</h1>
         </div>
         <div class="row row-cols-6 mb-5 ">

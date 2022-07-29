@@ -50,6 +50,16 @@
     background-color: rgb(209, 224, 245);
 }
 
+.modal-header {
+    background: #3785f9;
+    color: #fff;
+}
+
+#trusted_clas_box {
+    display: visible;
+}
+
+
 @media screen and (max-width: 992px) {
     * {
         background-color: blue;
@@ -62,6 +72,14 @@
 
     #slider_box p {
         font-size: 1rem;
+    }
+
+    .trusted_clas_box {
+        display: none;
+    }
+
+    #trusted_clas_box {
+        color: white;
     }
 }
 
@@ -82,6 +100,10 @@
 
     #slider-btn {
         font-size: 0.5rem;
+    }
+
+    #trusted_clas_box {
+        color: white;
     }
 
 }

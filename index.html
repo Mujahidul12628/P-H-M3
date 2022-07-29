@@ -64,86 +64,89 @@
     <header class="container my-5">
 
         <!-- Starting Slider under header -->
-        <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+        <section id="top-slider" class="my-4">
+            <div class="container-lg">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <!-- slider 1 -->
+                        <div class="carousel-item bg-dark rounded-2" data-bs-interval="50000">
+                            <img src="images/cover/Cover_Slider1.png" class="d-block w-100  opacity-50 " alt="...">
+
+                            <div class="carousel-caption  " id="slider_box">
+                                <h1 class="  fw-semibold">Get Started With Green Academy</h1>
+                                <p class="text-truncate mb-3">Education is the most powerful weapon which can be change
+                                    the world</p>
+
+                                <div class="register pt-md-3">
+                                    <input class="bg-primary text-white px-3 py-2 border border-0 rounded-2"
+                                        id="slider-btn" type="button" value="Get Started">
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                        <!-- slider 2 -->
+                        <div class="carousel-item bg-dark rounded-2 active" data-bs-interval="2000">
+                            <img src="images/cover/Cover_Slider2.png" class="d-block w-100  opacity-25 " alt="...">
+
+                            <div class="carousel-caption  d-md-block gap-2 ">
+                                <h1 class=" fw-semibold">155+ Courses are available</h1>
+                                <p class="text-truncate">Learning is a treasure that will follow its owner everywhere
+                                </p>
+
+                                <div class="register pt-md-3">
+                                    <a href="#"
+                                        class="btn btn-sm btn-blue text-white   rounded-1 fw-semibold  d-md-none"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal">Register
+                                        Now</a>
+
+                                    <input class="bg-primary text-white px-3 py-2 border border-0 rounded-2"
+                                        type="button" value="Get Started">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- slider 3 -->
+                        <div class="carousel-item bg-dark rounded-2" data-bs-interval="3000">
+                            <img src="images/cover/Cover_Slider3.png" class="d-block w-100  opacity-25 " alt="...">
+
+                            <div class="carousel-caption  d-md-block ">
+                                <h1 class="  fw-semibold">100+ Dedicated Instructor</h1>
+                                <p class="text-truncate mb-3">Education is not preparation for life; education is life
+                                    itself</p>
+
+                                <div class="register pt-md-3">
+
+                                    <input class="bg-primary text-white px-3 py-2 border border-0 rounded-2"
+                                        type="button" value="Get Started">
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                        <!-- slider buttons here  -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
             </div>
-            <div class="carousel-inner">
-
-                <div class="carousel-item active d-flex flex-column justify-content-center" data-bs-interval="100000">
-                    <img class="cover_filter" src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block ">
-
-                        <h2 class="text-white text-center ">Education is the most powerful
-                            weapon to
-                            change the world
-                        </h2>
-                        <p class="text-white text-center ">Education is not preparation for
-                            life;
-                            education is life itself.Continuous learning is the
-                            minimum requirement for success in any field.</p>
-                        <input class="bg-primary text-white px-3 py-2 border border-0 rounded-2" type="button"
-                            value="Get Started">
-
-                    </div>
-                </div>
-
-
-                <div class="carousel-item " data-bs-interval="10000">
-                    <img class="cover_filter" src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block ">
-
-                        <h2 class="text-white text-center ">Education is the most powerful
-                            weapon to
-                            change the world
-                        </h2>
-                        <p class="text-white text-center ">Education is not preparation for
-                            life;
-                            education is life itself.Continuous learning is the
-                            minimum requirement for success in any field.</p>
-                        <input class="bg-primary text-white px-3 py-2 border border-0 rounded-2" type="button"
-                            value="Get Started">
-
-                    </div>
-                </div>
-
-
-                <div class="carousel-item " data-bs-interval="1000">
-                    <img class="cover_filter" src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block ">
-
-                        <h2 class="text-white text-center ">Education is the most powerful
-                            weapon to
-                            change the world
-                        </h2>
-                        <p class="text-white text-center ">Education is not preparation for
-                            life;
-                            education is life itself.Continuous learning is the
-                            minimum requirement for success in any field.</p>
-                        <input class="bg-primary text-white px-3 py-2 border border-0 rounded-2" type="button"
-                            value="Get Started">
-
-                    </div>
-                </div>
-
-
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        </section>
         <!-- Finish Slider under header -->
 
     </header>
@@ -353,13 +356,13 @@
     <!-- Start ready to join section -->
     <section class="container my-5">
         <div class="row mt-5 bg-primary text-white rounded-3 p-5 ">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
                 <h1>Ready To Join?</h1>
                 <p>It is a long established fact that a reader will be distracted
                     by the
                     readable content of a page when looking at its layout.</p>
             </div>
-            <div class="col-3">
+            <div class="col-3 col-sm-4 col-md-2 clo-lg-2">
 
             </div>
 

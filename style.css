@@ -7,6 +7,18 @@
     color: Green;
 }
 
+#slider_box h1 {
+    font-size: 4rem;
+}
+
+#slider_box p {
+    font-size: 1.5rem;
+}
+
+#slider-btn {
+    font-size: 1rem;
+}
+
 .cover_filter {
     filter: brightness(60%);
 }
@@ -36,4 +48,40 @@
 
 .accordion {
     background-color: rgb(209, 224, 245);
+}
+
+@media screen and (max-width: 992px) {
+    * {
+        background-color: blue;
+        color: white;
+    }
+
+    #slider_box h1 {
+        font-size: 2.5rem;
+    }
+
+    #slider_box p {
+        font-size: 1rem;
+    }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    * {
+        background-color: olive;
+        color: white;
+    }
+
+    #slider_box h1 {
+        font-size: 1.5rem;
+    }
+
+    #slider_box p {
+        font-size: 0.5rem;
+    }
+
+    #slider-btn {
+        font-size: 0.5rem;
+    }
+
 }

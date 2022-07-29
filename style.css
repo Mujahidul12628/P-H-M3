@@ -1,0 +1,39 @@
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar-brand span {
+    color: Green;
+}
+
+.cover_filter {
+    filter: brightness(60%);
+}
+
+.card-body {
+    font-size: 1rem;
+}
+
+.Explore_card {
+    background-color: rgb(221, 230, 249);
+}
+
+#explore_car_body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.read_btn {
+    max-width: 100px;
+}
+
+#Register_id:hover {
+    font-weight: bold;
+}
+
+.accordion {
+    background-color: rgb(209, 224, 245);
+}
